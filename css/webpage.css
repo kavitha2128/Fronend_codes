@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px ;
+}
+nav .firstone{
+    background-color: white;
+    box-shadow: 2px 3px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    padding: 5px;
+    width:300px;
+}
+h2{
+    margin-left: 20px;
+    font-size: large;
+    font-style: oblique;
+}
+.tag a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.tag{
+    margin-right: 1000px;
+}
+.logo{
+    margin-right: 50px;
+}
+.logo a{
+    color: black;
+}
+.cardcontainer{
+    padding:150px;
+    text-align: center;
+    padding: 20px;
+}   
+.second-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.image-button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.firstone{
+    text-align: center;
+    box-shadow: 2px 3px rgba(0,0,0,0.5);
+
+}
+h3{
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.firstone img{
+    height: 350px;
+    width: 350px;
+   
+    
+}
+.lastone input{
+    width: 100px;
+}
+.lastone{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+ }
+  p{
+    justify-items: center;
+}

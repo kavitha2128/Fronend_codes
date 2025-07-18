@@ -1,0 +1,70 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.first{
+    display: flex;
+     box-shadow: 2px 3px 3px rgb(216, 226, 235);
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: white;
+    align-items: center;
+    height: 200px;
+    width: 1000px;
+}
+.cardcontainer{
+    background-color: rgb(236, 235, 235);
+    box-shadow: 2px 3px 3px rgb(153, 161, 168);
+    height: 710px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+h3{
+    margin-top: 30px;
+}
+.total{
+    display: flex;
+}
+.rightpanel{
+    background-color: rgb(236, 235, 235);
+    box-shadow: 2px 3px 3px rgb(216, 226, 235);
+    height: 600px;
+    width: 855px;
+    padding: 30px;
+}
+.firstone{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+.thirdone{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+
+}
+ .fourthone button{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 25px;
+    justify-content: center;
+    
+}
+h2{
+    padding: 20px;
+}
+.fourthone{
+    text-align: center;
+}
+.four{
+    margin: 40px;
+}

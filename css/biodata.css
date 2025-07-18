@@ -1,0 +1,18 @@
+
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.a{
+    color: blue;
+    padding-right: 60px;
+}
+.b{
+    color: blueviolet;
+}
+
+.link{
+    display: flex;
+    background-color: aqua;
+     justify-content:center;
+}

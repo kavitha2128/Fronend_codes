@@ -1,0 +1,29 @@
+
+nav img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+    .logo{
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        background-color: darksalmon;   
+        
+    }
+      .link a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: blue;
+           
+      }
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+      .link a:hover{
+        color: rgb(9, 245, 21);
+      }
+   
+
+

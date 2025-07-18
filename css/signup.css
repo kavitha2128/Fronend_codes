@@ -1,0 +1,17 @@
+
+.overall{
+    height: 350px;
+    width: 300px;
+    box-shadow: 2px 3px 3px #d8d8d84d;
+}
+form{
+    justify-items: center;
+}
+.side input{
+    width: 100px;
+    height: 20px;
+}
+.side {
+    display: flex;
+    justify-content: space-between;
+}

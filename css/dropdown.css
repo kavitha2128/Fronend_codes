@@ -1,0 +1,48 @@
+nav{
+    background-color: beige;
+    text-align: end;
+}
+h2{
+    text-align: center;
+}
+.a button{ 
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    z-index: -1px;
+}
+.a{
+    display: inline-block;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    margin-left: 15px;
+    display: block;
+}
+.b{
+    display: none;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    width: 80px;
+    border-radius: 4px;
+    z-index: -1px;
+    text-align: center;
+}
+
+
+.a{
+    display: inline-block;
+}
+.a:hover .b{
+    display: block;
+}
+button{
+    text-align: end;
+}
+ .b a:hover{
+    background-color:coral;
+}

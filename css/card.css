@@ -1,0 +1,63 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    margin: 0px;
+    justify-content: center;
+    padding:0px ;
+   align-items:center ;
+}
+.a{
+     display: grid;
+     gap: 30px;
+    margin-top: 100px;
+    
+     grid-template-columns: repeat(4,1fr);
+    
+     
+}
+.card{
+    background-color: beige;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.card img{
+    height: 200px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card h3{
+    margin: 10px 0 5px 0;
+}
+.card p{
+    margin: 5px 0;
+    color: rgb(75, 77, 116);
+}
+.card button{
+    background-color: cadetblue;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.card button:hover{
+    background-color: aquamarine;
+
+    
+}
+nav{
+     background-color: burlywood;
+     text-align: center;
+     font-size: large;
+}
+footer{
+    background-color: burlywood;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 60px
+}
