@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px ;
 }
-nav .one{
+nav .firstone{
     background-color: white;
     box-shadow: 2px 3px rgba(0,0,0,0.5);
     display: flex;
@@ -13,7 +13,7 @@ input{
     padding: 5px;
     width:300px;
 }
-h2{
+h1{
     margin-left: 20px;
     font-size: large;
     font-style: oblique;
@@ -33,52 +33,55 @@ h2{
 .logo a{
     color: black;
 }
-.cardcontainer{
-    padding:150px;
-    text-align: center;
-    padding: 20px;
-}   
-.second-card{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
-.image-button{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.firstone{
+.one{
     text-align: center;
     box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
-    height: 400px;
-    width: 350px;
-
 }
-.firstone:hover{
-     background-color:rgb(214, 211, 211);
-}
-h3{
-    text-align: center;
+.card{
+    display: flex;
+    justify-content: center;
 }
 button{
     background-color: green;
-    height: 30px;
-    color: white;
     border: none;
-    border-radius: 2px;
+    color: white;
 }
-.firstone img{
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-   
+h2{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+}
+.one{
+    text-align: center;
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+}
+.one:hover{
+    background-color:rgb(214, 211, 211);
+}
+button:hover{
+    background-color: blue;
+}
+.extra{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
     
 }
-.lastone input{
-    width: 100px;
+.second-card{
+    display: flex;
+    justify-content: center;
+
 }
-.lastone{
+.last{
     display: flex;
     margin: 20px;
     justify-content: space-between;
@@ -92,12 +95,9 @@ footer{
     justify-content: space-between;
     margin: 10px;
  }
-  p{
-    justify-items: center;
+ .lastone p{
+    text-align: center;
 }
-.image-button{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    margin-left: 20px;
+.second-card{
+    justify-content: center;
 }

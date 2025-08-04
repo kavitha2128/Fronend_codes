@@ -2,12 +2,13 @@ body{
     padding: 0px;
     margin: 0px ;
 }
-nav .one{
+nav .firstone{
     background-color: white;
     box-shadow: 2px 3px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 input{
     padding: 5px;
@@ -27,58 +28,58 @@ h2{
 .tag{
     margin-right: 1000px;
 }
-.logo{
-    margin-right: 50px;
+.logo a{
+    margin-right: 20px;
 }
 .logo a{
     color: black;
 }
-.cardcontainer{
-    padding:150px;
-    text-align: center;
-    padding: 20px;
-}   
-.second-card{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-}
-.image-button{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.firstone{
-    text-align: center;
-    box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
-    height: 400px;
-    width: 350px;
-
-}
-.firstone:hover{
-     background-color:rgb(214, 211, 211);
-}
-h3{
-    text-align: center;
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
 button{
     background-color: green;
-    height: 30px;
-    color: white;
     border: none;
-    border-radius: 2px;
+    color: white;
 }
-.firstone img{
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-   
+.card-container{
+    display: flex;
+}
+.one{
+    text-align: center;
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+}
+.one:hover{
+    background-color:rgb(214, 211, 211);
+}
+.second-card{
+       display: flex;
+       justify-content: center;
+}
+h1{
+    text-align: center;
+}
+button:hover{
+    background-color: blue;
+}
+.k{
+    color: green;
+}
+.extra{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
     
 }
-.lastone input{
+lastone input{
     width: 100px;
 }
-.lastone{
+.last{
     display: flex;
     margin: 20px;
     justify-content: space-between;
@@ -92,12 +93,9 @@ footer{
     justify-content: space-between;
     margin: 10px;
  }
-  p{
-    justify-items: center;
+ .lastone p{
+    text-align: center;
 }
-.image-button{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    margin-left: 20px;
+.second-card{
+    justify-content: center;
 }
